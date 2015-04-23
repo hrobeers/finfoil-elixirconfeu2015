@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>finFoil@ElixirConfEU</title>
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/sky_mod.css" id="theme">
+    <!--<link rel="stylesheet" href="css/print/pdf.css">-->
+    
+    <!-- Custom styling -->
+    <style>
+      html.img-back div.slide-background.present {
+        background-position: top;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+
+        <section>
+	  <img src="assets/IPCOSHQ.jpg"/>
+          <p>Soft real-time monitoring & optimisation of oil fields</p>
+        </section>
+
+        <section>
+          <img src="assets/train.jpg"/>
+        </section>
+
+	<section>
+	  <img src="assets/goodFoil.jpg"/>
+        </section>
+
+	<section>
+	  <img src="assets/badFoil.jpg"/>
+        </section>
+        
+        <section>
+          <h2>finFoil</h2>
+	  <img src="assets/finFoilCover.jpg"/>
+        </section>
+
+	<section>
+	  <img src="assets/elixirfin.png"/>
+	</section>
+
+	<section>
+	  <img src="assets/finfoil_web.png/">
+	</section>
+
+	<section>
+	  <img src="assets/animatedfin.gif"/>
+	</section>
+		
+	<section>
+	  <table class="reference" style="width:100%">
+	    <tbody>
+	    <tr>
+	      <td/>
+	      <td><b>Today</b></td>
+	      <td><b>Erlang</td>
+	      <td><b>Elixir</td>
+	    </tr>
+	    <tr>
+	      <td><b>Rest service</b></td>
+	      <td>Qxt</td>
+	      <td>Leptus</td>
+	      <td>Maru</td>
+	    </tr>
+	    <tr>
+	      <td><b>IPC</b></td>
+	      <td>/</td>
+	      <td>erlang-stdinout-pool</td>
+	      <td>erlang-stdinout-pool</td>
+	    </tr>
+	    <tr>
+	      <td><b>Processing</b></td>
+	      <td>finFoil-cli</td>
+	      <td>finFoil-cli</td>
+	      <td>finFoil-cli</td>
+	    </tr>
+	    </tbody>
+	  </table> 
+	</section>
+
+	<section>
+	  <pre><code>
+	      spawn_link(fn ->
+	        send boyfriend, {:msg, "hello hansje, bff loves you"}
+	      end)
+
+	      supervisor(Hans, []),
+	      worker(Frie, [1507])
+	      children = ***
+	      
+	      amai das echt gemakkelijk te lezen hé deen elexir ;-)
+	      kzen helemaal mee
+	      </code></pre>
+	</section>
+	
+	        
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+    <script>
+      Reveal.initialize({
+
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // Hides the address bar on mobile devices
+        hideAddressBar: true,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style
+        transition: 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'none', // default/none/slide/concave/convex/zoom
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Parallax background image
+        parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+        // Parallax background size
+        parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px"
+
+        // Optional libraries used to extend on reveal.js
+//         dependencies: [
+//           { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+//           { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+//           { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+//           { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+//           { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+//           { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+//         ]
+      });
+
+    </script>
+
+  </body>
+</html>
